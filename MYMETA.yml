@@ -20,7 +20,8 @@ no_index:
     - inc
 requires:
   App::Ack: 0
+  App::Nopaste: 0
   App::perlbrew: 0
   Devel::REPL: 0
   Module::CoreList: 0
-version: 0.27
+version: 0.28

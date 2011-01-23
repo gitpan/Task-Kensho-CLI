@@ -19,9 +19,10 @@ no_index:
     - t
 requires:
   App::Ack: 0
+  App::Nopaste: 0
   App::perlbrew: 0
   Devel::REPL: 0
   Module::CoreList: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.27
+version: 0.28
