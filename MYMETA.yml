@@ -24,4 +24,4 @@ requires:
   App::perlbrew: 0
   Devel::REPL: 0
   Module::CoreList: 0
-version: 0.28
+version: 0.29

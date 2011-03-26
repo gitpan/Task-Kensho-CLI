@@ -1,6 +1,6 @@
 package Task::Kensho::CLI;
 use strict;
-our $VERSION = '0.28';
+our $VERSION = '0.29';
 
 __END__
 
@@ -12,7 +12,7 @@ Task::Kensho::CLI - A Glimpse at an Enlightened Perl (CLI)
 
 =head1 VERSION
 
-This document describes Task::Kensho::CLI version 0.28
+This document describes Task::Kensho::CLI version 0.29
 
 =head1 SYNOPSIS
 
@@ -66,7 +66,7 @@ Easy access to any pastebin
 
 A modern perl interactive shell
 
-=item L<Module::Corelist|Module::Corelist>
+=item L<Module::CoreList|Module::CoreList>
 
 What modules shipped with versions of perl
 
