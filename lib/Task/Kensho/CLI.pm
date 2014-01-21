@@ -4,8 +4,8 @@ package Task::Kensho::CLI;
 BEGIN {
   $Task::Kensho::CLI::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-32-g5576142
-$Task::Kensho::CLI::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-6-g151e6ae
+$Task::Kensho::CLI::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Useful Command-line Tools
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::CLI - Useful Command-line Tools
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 

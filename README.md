@@ -4,7 +4,7 @@ Task::Kensho::CLI - Useful Command-line Tools
 
 # VERSION
 
-version 0.34001
+version 0.34002
 
 # SYNOPSIS
 
