@@ -1,5 +1,5 @@
 {
-   "abstract" : "A Glimpse at an Enlightened Perl: {{ $config_data->{$module}{description} }}",
+   "abstract" : "A Glimpse at an Enlightened Perl: Useful Command-line Tools",
    "author" : [
       "Chris Prather <chris@prather.org>"
    ],
@@ -42,22 +42,17 @@
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "6.30",
-            "Module::Build::Tiny" : "0.033"
+            "Module::Build::Tiny" : "0.034"
          }
       },
       "develop" : {
          "requires" : {
-            "App::Ack" : "0",
-            "App::Nopaste" : "0",
-            "App::perlbrew" : "0",
-            "Devel::REPL" : "0",
             "Dist::Zilla" : "5.012",
             "Dist::Zilla::Plugin::GitHub::Update" : "0",
             "Dist::Zilla::Plugin::GithubMeta" : "0",
             "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
-            "Module::CoreList" : "0",
             "Pod::Coverage::TrustPod" : "0",
             "Test::CPAN::Changes" : "0.19",
             "Test::CPAN::Meta" : "0",
@@ -107,7 +102,7 @@
          "web" : "https://github.com/EnlightenedPerlOrganisation/task-kensho"
       }
    },
-   "version" : "0.34003",
+   "version" : "0.34004",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019007"
@@ -401,7 +396,7 @@
                      "Devel::REPL" : "0",
                      "Module::CoreList" : "0"
                   },
-                  "require_develop" : 1,
+                  "require_develop" : 0,
                   "type" : "requires"
                },
                "inc::OptionalFeatureForSubTask" : {

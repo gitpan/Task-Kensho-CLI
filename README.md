@@ -4,7 +4,7 @@ Task::Kensho::CLI - A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
