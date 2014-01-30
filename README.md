@@ -4,7 +4,7 @@ Task::Kensho::CLI - A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -57,13 +57,21 @@ A grep-like text finder
 
 Easy access to any pastebin
 
+### [App::cpanminus](https://metacpan.org/pod/App::cpanminus)
+
+get, unpack, build and install modules from CPAN
+
 ### [App::perlbrew](https://metacpan.org/pod/App::perlbrew)
 
 Manage perl installations in your $HOME
 
+### [Carton](https://metacpan.org/pod/Carton)
+
+Perl module dependency manager (aka Bundler for Perl)
+
 ### [Devel::REPL](https://metacpan.org/pod/Devel::REPL)
 
-A modern perl interactive shell
+a modern perl interactive shell
 
 ### [Module::CoreList](https://metacpan.org/pod/Module::CoreList)
 
@@ -78,12 +86,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 

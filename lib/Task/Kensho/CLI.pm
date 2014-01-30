@@ -4,8 +4,8 @@ package Task::Kensho::CLI;
 BEGIN {
   $Task::Kensho::CLI::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34003-TRIAL-5-g37a5fa2
-$Task::Kensho::CLI::VERSION = '0.34004'; # TRIAL
+# git description: v0.34004-TRIAL-20-gdfd80b5
+$Task::Kensho::CLI::VERSION = '0.35';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::CLI - A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 =head1 VERSION
 
-version 0.34004
+version 0.35
 
 =head1 SYNOPSIS
 
@@ -71,7 +71,7 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head2 L<Task::Kensho::CLI>: Useful Command-line Tools
 
-=for stopwords pastebin
+=for stopwords pastebin Bundler
 
 =head3 L<App::Ack>
 
@@ -81,13 +81,21 @@ A grep-like text finder
 
 Easy access to any pastebin
 
+=head3 L<App::cpanminus>
+
+get, unpack, build and install modules from CPAN
+
 =head3 L<App::perlbrew>
 
 Manage perl installations in your $HOME
 
+=head3 L<Carton>
+
+Perl module dependency manager (aka Bundler for Perl)
+
 =head3 L<Devel::REPL>
 
-A modern perl interactive shell
+a modern perl interactive shell
 
 =head3 L<Module::CoreList>
 
@@ -102,12 +110,6 @@ regarding which modules you wish to install.
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-=head1 RELEASE SCHEDULE
-
-Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 
