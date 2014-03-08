@@ -46,12 +46,12 @@ my $static_prereqs = do { my $x = {
        'configure' => {
                         'requires' => {
                                         'ExtUtils::MakeMaker' => '6.30',
-                                        'Module::Build::Tiny' => '0.034'
+                                        'Module::Build::Tiny' => '0.035'
                                       }
                       },
        'develop' => {
                       'requires' => {
-                                      'Dist::Zilla' => '5.012',
+                                      'Dist::Zilla' => '5.013',
                                       'Dist::Zilla::Plugin::GitHub::Update' => '0',
                                       'Dist::Zilla::Plugin::GithubMeta' => '0',
                                       'File::Spec' => '0',
@@ -71,9 +71,6 @@ my $static_prereqs = do { my $x = {
                       'recommends' => {
                                         'App::Ack' => '0',
                                         'App::Nopaste' => '0',
-                                        'App::cpanminus' => '0',
-                                        'App::perlbrew' => '0',
-                                        'Carton' => '0',
                                         'Devel::REPL' => '0',
                                         'Module::CoreList' => '0'
                                       },

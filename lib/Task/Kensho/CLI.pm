@@ -4,8 +4,8 @@ package Task::Kensho::CLI;
 BEGIN {
   $Task::Kensho::CLI::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34004-TRIAL-20-gdfd80b5
-$Task::Kensho::CLI::VERSION = '0.35';
+# git description: v0.35-23-g5ef6d9b
+$Task::Kensho::CLI::VERSION = '0.36';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::CLI - A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 =head1 VERSION
 
-version 0.35
+version 0.36
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ subject and object."[3]
 
 =back
 
-L<Task::Kensho> is a first cut at building a list of recommended modules
+L<Task::Kensho> is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -71,7 +71,7 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head2 L<Task::Kensho::CLI>: Useful Command-line Tools
 
-=for stopwords pastebin Bundler
+=for stopwords pastebin
 
 =head3 L<App::Ack>
 
@@ -80,18 +80,6 @@ A grep-like text finder
 =head3 L<App::Nopaste>
 
 Easy access to any pastebin
-
-=head3 L<App::cpanminus>
-
-get, unpack, build and install modules from CPAN
-
-=head3 L<App::perlbrew>
-
-Manage perl installations in your $HOME
-
-=head3 L<Carton>
-
-Perl module dependency manager (aka Bundler for Perl)
 
 =head3 L<Devel::REPL>
 
@@ -109,7 +97,7 @@ regarding which modules you wish to install.
 
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::CLI
 
 =head1 BUGS AND LIMITATIONS
 
