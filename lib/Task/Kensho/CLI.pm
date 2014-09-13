@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::CLI;
-# git description: v0.36-20-g1c2b448
-$Task::Kensho::CLI::VERSION = '0.37';
+# git description: v0.37-22-g9581e85
+$Task::Kensho::CLI::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::CLI - A Glimpse at an Enlightened Perl: Useful Command-line Tools
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
